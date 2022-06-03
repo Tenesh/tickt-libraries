@@ -1,4 +1,4 @@
-import {TicketSubject} from '../subjects/ticket-subject';
+import {TicketSubject} from '../subjects';
 
 export  interface TicketCreatedEvent {
     subject: TicketSubject.TicketCreated;

@@ -1,5 +1,4 @@
-import {OrderSubject} from '../subjects/order-subject';
-import {OrderStatus} from '../types/order-status';
+import {OrderSubject} from '../subjects';
 
 export interface OrderCancelledEvent {
     subject: OrderSubject.OrderCancelled;

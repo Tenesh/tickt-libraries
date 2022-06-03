@@ -1,9 +1,10 @@
 import {Message, Stan} from 'node-nats-streaming';
 import {TicketSubject} from './subjects/ticket-subject';
 import {OrderSubject} from './subjects/order-subject';
+import {ExpirationSubject} from './subjects/expiration-subject';
 
 interface Event {
-    subject: TicketSubject | OrderSubject;
+    subject: TicketSubject | OrderSubject | ExpirationSubject;
     data: any;
 }
 

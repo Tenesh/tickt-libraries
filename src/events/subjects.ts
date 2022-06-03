@@ -13,8 +13,7 @@ enum TicketSubject {
 }
 
 enum PaymentSubject {
-    PaymentCompleted = 'payment:completed',
-    PaymentDeclined = 'payment:declined'
+    PaymentCreated = 'payment:created',
 }
 
 export { ExpirationSubject, OrderSubject, TicketSubject, PaymentSubject}
